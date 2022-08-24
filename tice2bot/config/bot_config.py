@@ -5,12 +5,12 @@
 ####################################
 
 # Change this to your telegram token
-TOKEN = '315884542:AAF3bq1Wtz2nUlziF0Aic-oIgDvLM2xlnmE'
+TOKEN = '5734765428:AAGcdtPd4fmyFtwcn3Zyi1kwMfJVjoCynZg'
 
 # List of bot owners
 
 BOT_OWNERS = [
-    'TargoliniHakini'  # telegram username
+    '@cryptalien5'  # telegram username
 ]
 
 ###################################
@@ -20,8 +20,8 @@ BOT_OWNERS = [
 # List of your IceCast2 servers.
 
 ICECAST2_SERVERS = [
-    'https://radio2.hmsu.org:8000',
-    'https://radio3.hmsu.org:8000',
+    'cryptoafterdark.caster.fm:8000',
+    'cryptoafterdark.caster.fm:8000',
 ]
 
 # by default status-json.xsl will return http protocol even ssl is set to 1 in
@@ -44,8 +44,8 @@ SERVERS_LIMIT = 100
 # more info @ https://icecast.org/docs/icecast-2.4.0/auth.html
 # in our case the auth hook point to one of our stream server, but can be anything else.
 
-WEBHOOK_IP = "radio2.hmsu.org"
-WEBHOOK_PORT = 8044
+WEBHOOK_IP = "http://shaincast.caster.fm:18372/listen.mp3?authn77d66ea62cd7ae9d770565c04a9b9fdb"
+WEBHOOK_PORT = 8000
 
 ###################################
 # Redis settings
